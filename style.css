@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: #c23616;
+    color: #fff;
+}
+
+.login{
+    background-color: #3366ff;
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container .title{
+    color: #fff;
+    background-color: #0040ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.container form .input-container{
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    
+}
+
+
+.container form .input-container i{
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    padding: 12px;
+    background-color: #0040ff;
+    color: #fff;
+    text-align: center;
+}
+
+.container form .input-container input{
+    width: 100%;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    outline: none;
+    border: 1px solid gray;
+    transition: all .5s ease;
+}
+
+.container form .input-container input:focus{
+    border: 1px solid #0040ff;
+    box-shadow: inset 0px 0px 2px 2px rgba(4, 0, 255, .2);
+}
+
+.container a{
+    text-decoration: none;
+    color: #0040ff;
+    transition: all .5s ease;
+}
+
+.container a:hover{
+    text-decoration: underline;
+}
+
+.container form .btn{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0040ff;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    transition: all .5s ease;
+}
+
+.container form .btn:hover{
+    opacity: .8;
+}
+
+.container p{
+    text-align: center;
+}
